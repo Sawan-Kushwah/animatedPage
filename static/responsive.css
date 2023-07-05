@@ -1,0 +1,384 @@
+.res-icon ion-icon {
+  display: none;
+  font-size: 50px;
+  margin: 0px;
+}
+
+.res-icon ion-icon {
+  position: absolute;
+  right: 30px;
+  top: 5px;
+}
+
+.deactive-bar {
+  transform: scale(0);
+  transition: all 0.5s;
+}
+
+.active {
+  color: rgb(73, 125, 178)
+}
+
+
+@media screen and (max-width: 1150px) {
+
+  /* making navbar responsive */
+  .res-icon ion-icon {
+    display: block;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .nav-res {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #050a0f;
+    top: 50px;
+    left: -100%;
+    flex-direction: column;
+    text-align: center;
+    transition: all 0.5s;
+    display: block;
+    opacity: 0.8;
+    margin: auto;
+  }
+
+  .nav {
+    left: 0%;
+  }
+
+  .nothing {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .ul-res {
+    flex-direction: column;
+    display: none;
+  }
+
+  .li-res {
+    margin: 30px;
+    display: block;
+    line-height: 30px;
+  }
+
+  /* making footer responsive */
+  .footeritem {
+    height: 500px;
+    flex-direction: column;
+  }
+
+  .footer .leftfooter {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .footer .rightfooter {
+    width: 100%;
+    margin-top: 115px;
+  }
+
+  .social {
+    text-align: center;
+  }
+
+  /* making home page responsive */
+  .main {
+    flex-direction: column-reverse;
+  }
+
+  .leftcontainer img {
+    height: 340px;
+    width: 340px;
+    margin-top: 15px;
+  }
+
+  .down p {
+    font-size: 0.rem;
+  }
+
+  .rightcontainer .down {
+    font-size: 1.3rem;
+  }
+
+  .rightcontainer .middle {
+    font-size: 2.3rem;
+  }
+
+  .rightcontainer .up {
+    font-size: 4rem;
+  }
+
+  .button {
+    justify-content: space-evenly;
+  }
+
+  .home-btn {
+    width: 7.5rem;
+    padding: 7px;
+    font-size: 1rem;
+  }
+
+  .about-box .box p {
+    text-align: center;
+    padding: 4px;
+  }
+
+  .skillscontainer {
+    flex-direction: column;
+  }
+
+  .skillscontainer .leftskillsitem {
+    width: 100%;
+  }
+
+  .skillscontainer .rightskillsitem {
+    width: 100%;
+  }
+
+  .contact {
+    width: 85%;
+  }
+  .skills {
+     box-shadow: 0px 0px 0px #192941 inset;
+}
+#item-4{
+  margin-top: 0px;
+}
+}
+
+@media screen and (max-width:885px) {
+  .footer .leftfooter {
+    flex-direction: column;
+    text-align: center;
+    margin: 0px;
+  }
+
+  .footer-res {
+    margin: 18px 0px;
+  }
+
+  .footer .rightfooter {
+    margin: 0px;
+  }
+
+  .rightfooter input {
+    width: 16rem;
+    margin-bottom: 20px;
+  }
+
+  .social p {
+    right: 0px;
+  }
+
+  ion-icon {
+    font-size: 35px;
+    margin: 8px 23px;
+  }
+
+  .down p {
+    font-size: 0.6rem;
+    padding: 8px;
+  }
+
+  .rightcontainer {
+    width: 100%;
+  }
+
+  .rightcontainer .down {
+    font-size: 1rem;
+  }
+
+  .rightcontainer .middle {
+    font-size: 1.3rem;
+  }
+
+  .rightcontainer .up {
+    font-size: 3.5rem;
+  }
+
+  .leftcontainer img {
+    height: 280px;
+    width: 280px;
+  }
+
+  .about-content {
+    height: 900px;
+  }
+
+  .about-box {
+    flex-direction: column;
+  }
+
+  .about-box .box {
+    width: 75%;
+  }
+
+  .about-items .p-down {
+    font-size: 1rem;
+  }
+
+  .skills .heading {
+    font-size: 1.4rem;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  .contactform .form-item input {
+    width: 20rem;
+    font-size: 1rem;
+  }
+
+  .form-item label {
+    font-size: 1rem;
+  }
+  .skillscontainer img{
+    width: 30px;
+  }
+}
+
+@media screen and (max-width : 500px) {
+  .rightcontainer .up {
+    font-size: 2rem;
+  }
+
+  .rightcontainer .middle {
+    font-size: 0.9rem;
+  }
+
+  .down p {
+    font-size: 0.5rem;
+    padding: 4px 6px;
+  }
+
+  ion-icon {
+    font-size: 29px;
+    margin: 8px 10px;
+  }
+
+  .rightcontainer .up span {
+    margin-left: 12px;
+  }
+
+  .about-container {
+    border: none;
+    background: none;
+    border-radius: none;
+    max-width: 100%;
+    margin: 0px;
+    box-shadow: none;
+  }
+
+  .about-heading h1 {
+    font-size: 2.3rem;
+  }
+
+  .about-mp {
+    font-size: 0.8rem;
+  }
+
+  .skills .heading {
+    font-size: 0.8rem;
+  }
+
+  .contact h3 {
+    font-size: 1.8rem;
+  }
+
+  .form-item {
+    width: 57%;
+    margin: 0px auto;
+  }
+
+  .csmb {
+    width: 12rem;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .contactform .form-item input {
+    width: 14rem;
+    font-size: 0.8rem;
+    padding: 4px;
+    text-align: center;
+  }
+
+  .rightfooter input {
+    width: 12rem;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .contactform .form-item input:hover {
+    padding: 4px;
+  }
+
+  .leftcontainer img {
+    margin-top: 115px;
+  }
+
+  .about-pic img {
+    width: 160px;
+  }
+
+  .about-items h3 {
+    width: 100%;
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .home-btn {
+    width: 5.2rem !important;
+    padding: 7px 0px;
+    font-size: 0.8rem;
+  }
+
+  .left h3 a {
+    font-size: 0.7rem;
+  }
+
+  .rightcontainer .up {
+    font-size: 1rem;
+  }
+
+  .rightcontainer .middle {
+    font-size: 0.6rem;
+  }
+
+  .rightcontainer .down {
+    font-size: 0.7rem;
+  }
+
+  .about-box .box p {
+    font-size: 0.7rem;
+  }
+
+  .smbtn {
+    width: 6rem;
+    padding: 10px;
+    font-size: 0.7rem;
+  }
+
+  .form-item {
+    width: 67%;
+  }
+
+  .contact h3 {
+    font-size: 1.3rem;
+  }
+
+  .btn {
+    width: 10rem;
+  }
+
+  .contactform .form-item input {
+    width: 10rem;
+  }
+}

@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Noto+Sans+Mono:wght@300&family=Ubuntu&display=swap');
+
+
+/* DESIGNING HOME PAGE */
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(#080b0f, #121d2d);
+    position: sticky;
+    top: 0;
+    font-family: 'Ubuntu', sans-serif;
+    height: 50px;
+    font-size: 1.2rem;
+}
+
+
+
+.navbar ul {
+    display: flex;
+
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    margin: 0px 50px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+    color: rgb(73, 125, 178);
+}
+
+.left h3 a {
+    text-decoration: none;
+}
+
+.main::before {
+    content: "";
+    background: url('bg2.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(50%);
+    background-size: cover;
+    background-position: center;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 85vh;
+}
+
+.rightcontainer {
+    /* background-color: red; */
+    width: 650px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.leftcontainer img {
+    height: 450px;
+    width: 450px;
+}
+
+.main span {
+    color: #8fc0f1;
+}
+
+.rightcontainer .up {
+    font-size: 4.5rem;
+    display: flex;
+    font-family: 'Noto Sans Mono', monospace;
+
+}
+
+.rightcontainer .up span {
+    margin-left: 37px;
+    font-family: 'Noto Sans Mono', monospace;
+
+}
+
+.rightcontainer .middle {
+    font-size: 2.3rem;
+    display: flex;
+    font-family: 'Noto Sans Mono', monospace;
+
+
+}
+
+.rightcontainer .middle span {
+    margin-left: 15px;
+    font-family: 'Noto Sans Mono', monospace;
+
+}
+
+.rightcontainer .down {
+    font-size: 1.2rem;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.down p {
+    font-size: 0.7rem;
+    color: #bad8fc;
+}
+
+
+
+/* DESIGNING CONTACT FORM  */
+.contactform::before {
+    content: "";
+    background: url('contact.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(30%);
+    box-shadow: 185px 228px 400px #192941 inset;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 70em;
+}
+
+.contactform .form-item input {
+    width: 29rem;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid gray;
+    font-size: 1.3rem;
+    color: #cfd4cf;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.contactform .form-item input:hover {
+    padding: 9px;
+    border-bottom: 2px solid rgb(137, 193, 225);
+
+}
+
+.form-item label {
+    font-size: 1.5rem;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.contact h3 {
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: gray;
+    text-decoration-thickness: 2px;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.margin-right {
+    margin-right: 20px;
+}
+
+.btn {
+    cursor: pointer;
+    background: #1f1f2d;
+    width: 13rem;
+    padding: 10px;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 0.3s;
+    font-weight: bold;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn a:hover {
+    color: #044e8f;
+}
+
+.btn:hover {
+    color: #1f1f2d;
+    background-color: rgb(196, 195, 195);
+    border: 2px solid #08085c;
+}
+
+.smbtn {
+    width: 8rem;
+    padding: 6px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    border: 0px solid;
+}
+
+.csmb {
+    width: 22rem;
+    padding: 13px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 24px;
+}
+
+.home-btn {
+    width: 9.5rem;
+    padding: 8px;
+    border-radius: 9px;
+    background-color: #113255;
+}
+
+
+
+/* FOOTER DESIGN */
+/* .footer{
+    position: absolute;
+    top: 850px;
+} */
+
+.footeritem {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: flex;
+    background-color: rgb(32, 32, 40);
+
+}
+
+.footer .leftfooter {
+    width: 62vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer .rightfooter {
+    width: 38vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rightfooter input {
+    width: 22rem;
+    padding: 10px;
+    color: #f3ecec;
+    margin-bottom: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid;
+    outline: none;
+
+}
+
+.footerdown {
+    background-color: rgb(32, 32, 40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+}
+
+ion-icon {
+    font-size: 50px;
+    cursor: pointer;
+    margin: 8px 50px;
+}
+
+ion-icon:hover {
+    color: #1d689d;
+}
+
+hr {
+    width: 80vh;
+    text-align: center;
+}
+
+.social p {
+    font-size: 1.5rem;
+    position: relative;
+    right: 200px;
+}
+
+.line {
+    height: 2px;
+    background-color: rgb(104, 104, 107);
+}
+
+/* Skills section designing */
+.skills {
+    background: #080b0f;
+    box-shadow: 100px 100px 150px #192941 inset;
+}
+
+.skills .heading {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Noto Sans Mono', monospace;
+    background: linear-gradient(#080b0f, #121d2d);
+    padding: 30px;
+}
+
+.skills .heading h1 {
+    color: #b0b0b6;
+}
+
+.skillscontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.skillscontainer .leftskillsitem {
+    width: 50%;
+}
+
+.skillscontainer .rightskillsitem {
+    width: 50%;
+}
+
+.skills .item {
+    height: 150px;
+    margin: 41px auto;
+    width: 80%;
+    border: 2px solid #126c89;
+    border-radius: 10px;
+}
+
+
+.skillscontainer img {
+    display: block;
+    margin: 7px auto;
+    cursor: pointer;
+}
+
+.width-center {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.skillscontainer .contain {
+    display: flex;
+}
+
+.skillscontainer .bar {
+    width: 75%;
+    margin: auto;
+    margin-top: 18px;
+    border: 2px solid #a5c8f9;
+    border-radius: 25px;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, .1);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.skills .item:hover {
+    box-shadow: 0px 0px 50px #313132;
+}
+
+.skillscontainer .bar span {
+    height: 22px;
+    float: left;
+    background: linear-gradient(135deg, #080b0f 0%, #264066 100%);
+}
+
+
+.html {
+    width: 90%;
+    animation: html 0.9s;
+}
+
+.css {
+    width: 75%;
+    animation: html 0.9s;
+}
+
+.javascript {
+    width: 50%;
+    animation: html 0.9s;
+}
+
+.nodejs {
+    width: 60%;
+    animation: html 0.9s;
+}
+
+.c {
+    width: 85%;
+    animation: html 0.9s;
+}
+
+.cp {
+    width: 80%;
+    animation: html 0.9s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes nodejs {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes c {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes cp {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+/* About section designing  */
+
+.about::before {
+    content: "";
+    background: #080b0f;
+    position: absolute;
+    width: 100%;
+    height: 1400px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-container {
+    border: 2px solid #444547c7;
+    background: transparent;
+    border-radius: 10px;
+    max-width: 88%;
+    margin: 35px auto 20px auto;
+    color: white;
+    box-shadow: 0 0px 10px rgba(240, 238, 238, 0.33);
+}
+
+.about-container span {
+    color: #3c7794;
+}
+
+.about-pic img {
+    width: 270px;
+    margin: 20px auto;
+    display: block;
+}
+
+
+.about-heading h1 {
+
+    font-size: 3.4rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #363535;
+
+}
+
+.about-items h3 {
+    font-family: 'Ubuntu', sans-serif;
+    width: 260px;
+    margin: 20px auto -3px auto;
+    font-size: 2.3rem;
+
+
+}
+
+.about-items .p-down {
+    font-family: 'Noto Sans Mono', monospace;
+    margin: 14px auto;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.about-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-box .box {
+    height: 200px;
+    width: 30%;
+    background-color: #0d1117;
+    border: 1px solid rgb(45, 42, 55);
+    margin: 16px auto 9px auto;
+    border-radius: 15px;
+
+}
+
+.about-box .box:hover {
+    box-shadow: 0px 0px 60px #2a2a2a;
+}
+
+
+.about-box .box h4 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 10px 0px 12px 0px;
+}
+
+.about-box .box p {
+    text-align: center;
+    padding: 8px 50px;
+    color: gray;
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+
+.about-button {
+    text-align: center;
+    margin-top: 10px;
+
+}
+.reveal{
+    position: relative;
+    transform:  translateY(150px);
+    opacity: 0;
+    transition:.5s ease all ;
+}
+.reveal.activereveal{
+    transform:  translateY(0);
+    opacity: 1;
+}
