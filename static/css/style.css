@@ -56,7 +56,7 @@ html {
 
 .main::before {
     content: "";
-    background: url('bg2.jpg');
+    background: url('/static/img/bg2.jpg');
     position: absolute;
     width: 100%;
     height: 100%;
@@ -137,7 +137,7 @@ html {
 /* DESIGNING CONTACT FORM  */
 .contactform::before {
     content: "";
-    background: url('contact.jpg');
+    background: url('/static/img/contact.jpg');
     position: absolute;
     width: 100%;
     height: 100%;
