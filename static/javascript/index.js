@@ -3,7 +3,7 @@ let element = document.getElementById('element');
 let element2 = document.getElementById('element2');
 
 var typed = new Typed('#element', {
-    strings: ['Front-end developer',  'node-js developer'],
+    strings: ['Front-end development', 'C++ programing', 'Javascript', 'node-js', 'Database Management'],
     typeSpeed: 50,
 });
 
