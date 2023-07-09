@@ -331,6 +331,9 @@
     width: 100%;
     font-size: 1.7rem;
   }
+  .rightcontainer .down {
+    font-size: 0.7rem;
+  }
 }
 
 @media screen and (max-width: 320px) {
